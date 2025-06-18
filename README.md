@@ -10,9 +10,6 @@ Anggota :
 
 - Tujuan utama aplikasi ini adalah untuk membantu jembatan komunikasi antara teman tuli dengan masyarakat luas, serta sebagai media pembelajaran interaktif bagi pengguna yang ingin belajar BISINDO.
 
-# Contoh Gambar
-
-
 # Python untuk pemrograman inti.
 
 - Python untuk pemrograman inti.
