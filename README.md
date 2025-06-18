@@ -45,3 +45,12 @@ Framework:
 # Dataset yang Digunakan
 
 (https://www.kaggle.com/datasets/agungmrf/indonesian-sign-language-bisindo)
+
+# Hasil Testing
+
+![Huruf A](images/hurufA.jpg)
+![Huruf G](images/hurufG.jpg)
+![Huruf S](images/hurufS.jpg)
+![Huruf D](images/hurufD.jpg)
+![Huruf J](images/hurufJ.jpg)
+![Huruf N](images/hurufN.jpg)

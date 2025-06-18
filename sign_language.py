@@ -60,3 +60,8 @@ while run and cap is not None:
 # Stop webcam jika selesai
 if cap:
     cap.release()
+
+# Gambar panduan abjad BISINDO
+st.markdown("---")
+st.subheader("📘 Panduan Abjad BISINDO")
+st.image("bisindo.png", caption="Abjad dalam BISINDO", use_container_width=True)
