@@ -32,7 +32,7 @@ Komunikasi antara teman tuli dan orang non-disabilitas masih menjadi tantangan, 
 Model yang digunakan dalam proyek ini adalah Convolutional Neural Network (CNN), yaitu jenis kecerdasan buatan yang biasa digunakan untuk mengenali gambar. Model ini dilatih agar bisa mengenali gambar tangan dan mengklasifikasikannya menjadi huruf A sampai Z.
 
 Proses pendeteksian huruf dilakukan melalui beberapa tahap:
-- Pelacakan Tangan (Hand Tracking): Menggunakan MediaPipe Hands untuk mendeteksi posisi tangan secara langsung dari kamera.
+- Pelacakan Tangan (Hand Tracking): Untuk mendeteksi posisi tangan secara langsung dari kamera.
 - Pemrosesan Gambar (Preprocessing): Gambar tangan yang terdeteksi kemudian di-crop dan disesuaikan ukurannya agar mudah dikenali oleh model.
 - Pelatihan Model (Training): Gambar-gambar tersebut digunakan untuk melatih model CNN, yang terdiri dari 3 sampai 5 lapisan. Model ini belajar membedakan setiap bentuk tangan berdasarkan hurufnya. Optimasi dilakukan menggunakan metode Adam dengan fungsi kesalahan categorical_crossentropy.
 - Prediksi (Prediction): Setelah dilatih, model dapat menebak huruf apa yang sedang diperagakan oleh tangan hanya dari gambar yang ditangkap kamera.
